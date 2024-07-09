@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 15px;
+    flex-basis: 200px;
+    height: 250px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    height: 225px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: stretch;
+}
+
+.operators {
+    flex-direction: column;
+    display: flex;
+    flex: auto;
+    align-items: stretch;
+}
