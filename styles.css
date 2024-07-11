@@ -44,7 +44,6 @@ h3 {
     flex-direction: column;
     display: flex;
     flex: auto;
-    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -57,12 +56,11 @@ button,
 .operators {
     flex-grow: 1;
     align-items: stretch;
+    border-color: black;
 }
 
-button,
-.containers {
-    flex-grow: 1;
-    align-items: stretch;
+.operators button {
+    background-color: orange;
 }
 
 .bottom {
